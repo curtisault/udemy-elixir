@@ -73,6 +73,9 @@ defmodule Cards do
 
     end
 
+    @doc """
+        Returns a hand of cards for the player
+    """
     def create_hand(hand_size) do
 
       Cards.create_deck
